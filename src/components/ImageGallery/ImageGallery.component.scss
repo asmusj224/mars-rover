@@ -1,0 +1,36 @@
+@import 'styles/_colors.scss';
+.image-gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin: 0 1rem 1rem 1rem;
+        transition: all 0.3s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    &__image {
+        max-width: 100%;
+        display: block;
+        opacity: 0.7;
+        height: 250px;
+        border-radius: 3px;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    &__description {
+        text-align: center;
+        font-size: 14px;
+        color: $darkgray;
+    }
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageGallery /> renders correctly 1`] = `
+<div
+  className="image-gallery"
+>
+  <ul
+    className="image-gallery__list"
+  />
+</div>
+`;

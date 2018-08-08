@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageOfTheDay /> renders correctly 1`] = `
+<div
+  className="image-of-the-day"
+>
+  <img
+    alt=""
+    className="image-of-the-day__image"
+    src=""
+  />
+  <p
+    className="image-of-the-day__rover"
+  >
+    
+     - 
+    
+  </p>
+</div>
+`;

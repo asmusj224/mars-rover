@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Of The Day Reducer should handle RECEIVE_IMAGE_GALLERY_ERROR 1`] = `Array []`;
+
+exports[`Image Of The Day Reducer should handle RECEIVE_IMAGE_OF_THE_DAY 1`] = `
+Object {
+  "roverCameraName": "Front Hazard Avoidance Camera",
+  "roverImage": "http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01847/opgs/edr/fcam/FLB_561457773EDR_F0661516FHAZ00341M_.JPG",
+  "roverName": "Curiosity",
+}
+`;
+
+exports[`Image Of The Day Reducer should handle RECEIVE_IMAGE_OF_THE_DAY_ERROR 1`] = `Array []`;
+
+exports[`Image Of The Day Reducer should return intial state 1`] = `Array []`;

@@ -1,0 +1,15 @@
+.image-of-the-day {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  .image-of-the-day__image {
+    display: block;
+    max-width: 100%;
+    height: 35rem;
+    margin: auto;
+    border-radius: 3px; }
+  .image-of-the-day__rover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a9a9a9;
+    font-size: 14px; }

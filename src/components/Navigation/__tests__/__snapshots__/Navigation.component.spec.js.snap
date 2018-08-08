@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation /> renders correctly 1`] = `
+<div
+  className="navigation"
+>
+  <h2>
+    <a
+      className="navigation__link navigation__link--black"
+      href="/image-of-the-day"
+      onClick={[Function]}
+    >
+      Mars Rover
+    </a>
+  </h2>
+  <ul
+    className="navigation__list"
+  >
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link navigation__link--gray"
+        href="/image-of-the-day"
+        onClick={[Function]}
+      >
+        Image of the day
+      </a>
+    </li>
+    <li
+      className="navigation__item"
+    >
+      <a
+        className="navigation__link navigation__link--gray"
+        href="/image-gallery"
+        onClick={[Function]}
+      >
+        Image Gallery
+      </a>
+    </li>
+  </ul>
+</div>
+`;

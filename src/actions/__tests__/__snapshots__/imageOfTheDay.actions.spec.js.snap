@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Of The Day Actions receiveImageGallery 1`] = `
+Object {
+  "payload": "",
+  "type": "RECEIVE_IMAGE_OF_THE_DAY",
+}
+`;
+
+exports[`Image Of The Day Actions receiveImageGalleryError 1`] = `
+Object {
+  "payload": "",
+  "type": "RECEIVE_IMAGE_OF_THE_DAY_ERROR",
+}
+`;
+
+exports[`Image Of The Day Actions requestImageOfTheDay 1`] = `
+Object {
+  "type": "REQUEST_IMAGE_OF_THE_DAY",
+}
+`;

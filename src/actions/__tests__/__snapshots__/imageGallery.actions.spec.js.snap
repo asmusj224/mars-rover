@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Gallery Actions receiveImageGallery 1`] = `
+Object {
+  "payload": "",
+  "type": "RECEIVE_IMAGE_GALLERY",
+}
+`;
+
+exports[`Image Gallery Actions receiveImageGalleryError 1`] = `
+Object {
+  "payload": "",
+  "type": "RECEIVE_IMAGE_GALLERY_ERROR",
+}
+`;
+
+exports[`Image Gallery Actions requestImageGallery 1`] = `
+Object {
+  "type": "REQUEST_IMAGE_GALLERY",
+}
+`;

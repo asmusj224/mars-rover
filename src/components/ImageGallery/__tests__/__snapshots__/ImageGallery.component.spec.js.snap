@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageGallery /> renders correctly 1`] = `
+<div
+  className="image-gallery"
+>
+  <ul
+    className="image-gallery__list"
+  >
+    <li
+      className="image-gallery__item"
+    >
+      <img
+        alt="Curiosity"
+        className="image-gallery__image"
+        src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01847/opgs/edr/fcam/FLB_561457773EDR_F0661516FHAZ00341M_.JPG"
+      />
+      <span
+        className="image-gallery__description"
+      >
+        Curiosity
+         - 
+        Front Hazard Avoidance Camera
+      </span>
+    </li>
+  </ul>
+</div>
+`;

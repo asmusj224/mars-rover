@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem; }
+  .navigation__list {
+    display: flex;
+    list-style: none; }
+  .navigation__item {
+    font-size: 13px;
+    margin-right: 1rem; }
+  .navigation__link {
+    text-decoration: none;
+    opacity: 0.8; }
+    .navigation__link:hover {
+      opacity: 1; }
+    .navigation__link--gray {
+      color: #a9a9a9; }
+    .navigation__link--black {
+      color: #2d2d2d; }

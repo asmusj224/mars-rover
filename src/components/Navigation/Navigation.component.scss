@@ -1,0 +1,28 @@
+@import 'styles/_colors.scss';
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+    &__item {
+        font-size: 13px;
+        margin-right: 1rem;
+    }
+    &__link {
+        text-decoration: none;
+        opacity: 0.8;
+        &:hover {
+            opacity: 1;
+        }
+        &--gray {
+            color: $darkgray;
+        }
+        &--black {
+            color: $black;
+        }
+    }
+}

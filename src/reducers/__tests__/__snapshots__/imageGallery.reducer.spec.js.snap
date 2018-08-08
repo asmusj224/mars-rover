@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Gallery Reducer should handle RECEIVE_IMAGE_GALLERY 1`] = `
+Object {
+  "roverImages": Array [],
+}
+`;
+
+exports[`Image Gallery Reducer should handle RECEIVE_IMAGE_GALLERY_ERROR 1`] = `
+Object {
+  "error": Array [],
+}
+`;
+
+exports[`Image Gallery Reducer should return intial state 1`] = `Array []`;

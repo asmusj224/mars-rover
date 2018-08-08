@@ -1,0 +1,28 @@
+.image-gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2rem; }
+  .image-gallery__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; }
+  .image-gallery__item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 1rem 1rem 1rem;
+    transition: all 0.3s; }
+    .image-gallery__item:hover {
+      transform: scale(1.1); }
+  .image-gallery__image {
+    max-width: 100%;
+    display: block;
+    opacity: 0.7;
+    height: 250px;
+    border-radius: 3px; }
+    .image-gallery__image:hover {
+      opacity: 1; }
+  .image-gallery__description {
+    text-align: center;
+    font-size: 14px;
+    color: #a9a9a9; }

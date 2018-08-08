@@ -1,0 +1,19 @@
+@import 'styles/_colors.scss';
+.image-of-the-day {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    &__image {
+        display: block;
+        max-width: 100%;
+        height: 35rem;
+        margin: auto;
+        border-radius: 3px;
+    }
+    &__rover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $darkgray;
+        font-size: 14px;
+    }
+}
